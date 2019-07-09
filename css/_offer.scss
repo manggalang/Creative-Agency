@@ -1,0 +1,42 @@
+.services{
+	position: relative;
+	padding: 20px 20px 15px 70px;
+	margin: 15px 0px;
+	border: 1px solid #EEE;
+
+	&::after{
+		content: "";
+		background-color: #1C1D21;
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 0%;
+		z-index: -1;
+		transition: .2s width;
+	}
+
+	&:hover::after{
+	width: 100%;
+	}
+
+	i{
+		position: absolute;
+		left: 20px;
+		text-align: center;
+		font-size: 32px;
+		color: #6195FF;
+		display: inline-block;
+	}
+
+	 h3{
+		text-transform: capitalize;
+		font-size: 21px;
+		transition: .2s color;
+		margin-top: 0;
+	}
+
+	&:hover h3{
+		color: #fff;
+	}
+}

@@ -1,0 +1,42 @@
+.main-kiri{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+
+	#left-text{
+		margin: 0 0 10px;
+		font-size: 15px;
+		font-family: arial;
+		line-height: 2;
+	}
+
+	.feature{
+		margin: 15px 0;
+
+		i{
+			padding: 5px;
+			border-radius: 50%;
+			color: #6195FF;
+			border: 1px solid #6195FF;
+			margin-right: 5px;
+			font-size: 12px;
+			text-rendering: auto;
+		}
+
+		p{
+			margin: 0 0 10px;
+			font-size: 15px;
+			display: inline-block;
+		}
+	}
+}
+
+.main-kanan{
+	width: 50%;
+	display: inline-block;
+
+	.about1{
+		height: 416.25px;
+		width: 100%;
+	}
+}

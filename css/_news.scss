@@ -1,0 +1,54 @@
+.col-md5{
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 15px;
+	width: 30%;
+
+	.blog{
+		background-color: #fff;
+
+		.blog-img{
+			box-sizing: border-box;
+
+			.blog1{
+				height: 202px;
+				width: 100%;
+			}
+		}
+
+		.blog-content{
+			padding: 20px 20px 40px;
+
+			.blog-meta{
+				margin-bottom: 20px;
+				padding-left: 0;
+
+				li{
+					display: inline-block;
+					font-size: 14px;
+					color: #10161A;
+					margin-right: 10px;
+
+					i{
+						color: #6195FF;
+						margin-right: 5px;
+					}
+				}
+			}
+
+			h3{
+				font-size: 21px;
+				color: #000;
+			}
+
+			p{
+				margin: 0 0 10px;
+			}
+
+			a{
+				color: #6195FF;
+				text-decoration: none;
+			}
+		}
+	}
+}

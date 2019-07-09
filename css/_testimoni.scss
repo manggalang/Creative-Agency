@@ -1,0 +1,47 @@
+.testimoni{
+	height: 436.8px;
+	width: 100%;
+	background-image: url(../img//bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+
+	.col-md10{
+		// height: 100%;
+		transform: translateY(50%);
+
+		.testimoni-meta{
+			position: relative;
+			padding-left: 90px;
+			height: 70px;
+			margin-bottom: 20px;
+
+			img{
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 70px !important;
+				height: 70px !important;
+				border-radius: 50%;
+			}
+
+			.white-text2{
+				color: #fff;
+				font-size: 21px;
+				font-weight: 700;
+				margin-bottom: 5px;
+			}
+
+			span{
+				font-size: 14px;
+				color: #6195FF;
+			}
+		}
+
+		p{
+			color: #fff;
+			margin: 0 0 10px;
+			line-height: 1.8;
+		}
+	}
+}
